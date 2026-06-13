@@ -1,14 +1,22 @@
 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="48" y2="48">
-      <stop offset="0" stop-color="#5ef0d2"/>
-      <stop offset="1" stop-color="#16b89b"/>
-    </linearGradient>
-  </defs>
-  <rect x="2" y="2" width="44" height="44" rx="11" fill="url(#g)"/>
-  <path d="M16 33 C 16 27, 32 28, 32 21" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="0.1 5.2" fill="none"/>
-  <circle cx="16" cy="33" r="4" fill="#fff"/>
-  <circle cx="16" cy="33" r="1.7" fill="#16b89b"/>
-  <path d="M32 11 c -3.9 0 -7 3 -7 6.8 c 0 4.7 7 11.2 7 11.2 s 7 -6.5 7 -11.2 c 0 -3.8 -3.1 -6.8 -7 -6.8 z" fill="#fff"/>
-  <circle cx="32" cy="18" r="2.7" fill="#16b89b"/>
+  <rect x="1" y="1" width="46" height="46" rx="10" fill="#111111"/>
+  <rect x="10" y="8" width="28" height="3" rx="1.5" fill="#ffffff"/>
+  <rect x="10" y="11" width="28" height="13" rx="2" fill="#ffffff"/>
+  <rect x="12" y="12.5" width="24" height="10" rx="1.5" fill="#222222"/>
+  <rect x="23" y="12.5" width="2" height="10" fill="#111111" opacity="0.5"/>
+  <rect x="5" y="14" width="5" height="2" rx="1" fill="#ffffff"/>
+  <rect x="3" y="12" width="4" height="5.5" rx="1" fill="#ffffff"/>
+  <rect x="38" y="14" width="5" height="2" rx="1" fill="#ffffff"/>
+  <rect x="41" y="12" width="4" height="5.5" rx="1" fill="#ffffff"/>
+  <rect x="10" y="24" width="28" height="8" rx="1.5" fill="#ffffff"/>
+  <rect x="11" y="25" width="6.5" height="6" rx="1" fill="#ccddff" opacity="0.9"/>
+  <rect x="30.5" y="25" width="6.5" height="6" rx="1" fill="#ccddff" opacity="0.9"/>
+  <rect x="18" y="24.5" width="12" height="7.5" rx="1" fill="#333333"/>
+  <line x1="18" y1="26.5" x2="30" y2="26.5" stroke="#666666" stroke-width="0.8"/>
+  <line x1="18" y1="28.5" x2="30" y2="28.5" stroke="#666666" stroke-width="0.8"/>
+  <line x1="18" y1="30.5" x2="30" y2="30.5" stroke="#666666" stroke-width="0.8"/>
+  <rect x="8" y="32" width="32" height="5" rx="2" fill="#ffffff"/>
+  <rect x="19" y="33" width="10" height="3" rx="0.5" fill="#444444"/>
+  <rect x="10" y="37" width="6" height="3" rx="1" fill="#ffffff" opacity="0.5"/>
+  <rect x="32" y="37" width="6" height="3" rx="1" fill="#ffffff" opacity="0.5"/>
 </svg>
