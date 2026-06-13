@@ -11,7 +11,7 @@ function CycleBar({ used, limit = 70 }) {
       <div className="cyc-track">
         <div className="cyc-fill" style={{ width: `${pct}%`, background: color }} />
       </div>
-      <span className="cyc-text" style={{ color }}>{used.toFixed(1)} / {limit} h</span>
+      <span className="cyc-text">{used.toFixed(1)} / {limit} h</span>
     </div>
   );
 }
@@ -131,7 +131,7 @@ export default function TripSummaryPanel({ summary: s, logSheets, stops, onViewL
                   />
                   <div className="day-bar-legend">
                     <span className="dbl drive">Drive {(t.driving ?? 0).toFixed(1)}h</span>
-                    <span className="dbl on">On-duty {((t.driving ?? 0) + (t.on ?? 0)).toFixed(1)}h</span>
+                    {(t.on ?? 0) > 0 && <span className="dbl on">On-duty {(t.on ?? 0).toFixed(1)}h</span>}
                     <span className="dbl off">Off {((t.off ?? 0) + (t.sb ?? 0)).toFixed(1)}h</span>
                   </div>
                   <DayTimeline rows={day.rows} />

@@ -4,14 +4,14 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
 const STOP_STYLE = {
-  start:   { color: "#0078D4", icon: "A", label: "Start" },
-  pickup:  { color: "#429CE3", icon: "P", label: "Pickup" },
+  start:   { color: "#3B82F6", icon: "A", label: "Start" },
+  pickup:  { color: "#3B82F6", icon: "P", label: "Pickup" },
   dropoff: { color: "#f06a6f", icon: "D", label: "Drop-off" },
-  fuel:    { color: "#f5c451", icon: "⛽", label: "Fuel" },
-  break:   { color: "#56b6e6", icon: "☕", label: "30-min break" },
-  rest:    { color: "#a78bfa", icon: "🛏", label: "10-hr rest" },
-  restart: { color: "#8b98a2", icon: "⏻", label: "34-hr restart" },
-  stop:    { color: "#8b98a2", icon: "•", label: "Stop" },
+  fuel:    { color: "#F59E0B", icon: "⛽", label: "Fuel" },
+  break:   { color: "#94A3BB", icon: "☕", label: "30-min break" },
+  rest:    { color: "#64748B", icon: "🛏", label: "10-hr rest" },
+  restart: { color: "#64748B", icon: "⏻", label: "34-hr restart" },
+  stop:    { color: "#94A3BB", icon: "•", label: "Stop" },
 };
 
 const CHIP_ORDER = ["start", "pickup", "fuel", "break", "rest", "restart", "dropoff"];
